@@ -80,20 +80,24 @@ header a:hover{
 
 #showcase{
   min-height: 400px;
-  background:url('../img/showcase2.jpg') no-repeat 0 -400px;
+  background:url('../img/showcase3.jpg') no-repeat 0 -400px;
   text-align:center;
   color: #ffffff;
-  opacity: 0.5;
+  background-size: auto;
 }
 
 #showcase h1{
   margin-top:100px;
   font-size: 55px;
   margin-bottom: 10px;
+  color: #000000 ;
 }
 
 #showcase p{
   font-size: 20px;
+  color: #000000;
+
+
 }
 
 #newsletter{
@@ -108,9 +112,36 @@ header a:hover{
 
 #newsletter form{
   float: right;
-  margin-left: 15px;
+  margin-top: 15px;
 }
 
 #newsletter input[type="email"]{
   padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Boxes */
+
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 90px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
 }
